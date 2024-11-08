@@ -20,7 +20,7 @@ The dataset used in this project includes the following customer attributes:
 Customer segmentation through K-Means clustering aims to group customers with similar attributes.
 By analyzing patterns in Age, Annual Income, and Spending Score, K-Means creates clusters where each group represents a distinct customer type. For instance:
 
-  - High-income customers with high spending scores could be targeted for premium offers.
+  - 🛒🛒High-income customers with high spending scores could be targeted for premium offers. 
     
 
 *Example - Airline Loyalty Programs for High-Spending Frequent Flyers.
@@ -28,7 +28,7 @@ By analyzing patterns in Age, Annual Income, and Spending Score, K-Means creates
            Individuals*
 
 
-  - Young customers with moderate incomes might be engaged with affordable or trend-based products.
+  - 🛒🛒Young customers with moderate incomes might be engaged with affordable or trend-based products. 
 
 *Example - Fast Fashion Brands indulging in targeted marketing and loyalty              programs, along with student discounts.
          - Affordable subscription-based entertainment services.*
@@ -59,10 +59,10 @@ EDA was performed to understand the dataset's structure and relationships betwee
 ### Conclusion and Insights
 The K-Means clustering model identified five distinct customer segments based on **Age, Annual Income, and Spending Score**. The segmentation reveals that customer behavior varies significantly:
 
-  1. **High-Income, High-Spending**: Likely loyal and profitable customers,        suited for premium services.
-  2. **Low-Income, High-Spending**: Engaged customers but potentially price-        sensitive; promotions might drive value.
-  3. **High-Income, Low-Spending**: Potential to engage further, possibly           through targeted loyalty programs.
-  4. **Younger, Moderate Income**: Can be nurtured for brand loyalty with             products suited to young lifestyles.
+  1. 💰💰💰💰    **High-Income, High-Spending**: Likely loyal and profitable customers, suited for premium services.
+  2. 💰💰💰      **Low-Income, High-Spending**: Engaged customers but potentially price-        sensitive; promotions might drive value.
+  3. 💰💰         **High-Income, Low-Spending**: Potential to engage further, possibly           through targeted loyalty programs.
+  4. 💰           **Younger, Moderate Income**: Can be nurtured for brand loyalty with             products suited to young lifestyles.
 
 
 ### Future Work and Enhancements
