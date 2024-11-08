@@ -43,6 +43,9 @@ Companies can make data-driven marketing decisions through segmentation to impro
   - Standardization: The Age, Annual Income (k$), and Spending Score features were standardized to bring all values to a similar scale, as clustering algorithms are sensitive to the scale of features.
   - Choosing Optimal Clusters: The optimal number of clusters was identified using the Elbow Method. This method involves plotting the sum of squared distances (inertia) for a range of cluster values. The point where inertia begins to decrease more slowly suggests an optimal number of clusters—in this case, k=5.
 
+<img width="525" alt="elbow plot" src="https://github.com/user-attachments/assets/c3b83847-a1a6-4468-95a3-d1e36ea194de">
+
+
 ### 2. Exploratory Data Analysis (EDA)
 EDA was performed to understand the dataset's structure and relationships between features, providing insights into the distribution of each feature and the interaction between features:
 
@@ -52,9 +55,19 @@ EDA was performed to understand the dataset's structure and relationships betwee
   - Annual Income: Displayed a normal distribution with some variation, indicating a balanced customer base in terms of income.
   - Spending Score: A range from low to high, which can indicate diverse spending behaviors.
 
+
+<img width="862" alt="viz_4" src="https://github.com/user-attachments/assets/ecca87e9-04bd-49d6-b65c-1e1b85e9e0fb">
+
+
+
    2. Pair Plot: A pair plot was used to observe relationships among Age, Income, and Spending Score. By coloring each point by its cluster, we could see how different clusters occupied distinct regions in the feature space.
 
+<img width="604" alt="viz_3" src="https://github.com/user-attachments/assets/f117a3a1-d457-490a-98b0-1f5fa95cd300">
+
   3. Cluster Visualization: A scatter plot of the Annual Income vs. Spending Score visualized the five clusters in two dimensions, with centroids marked to show the center of each cluster. This helps identify the characteristics of each segment (e.g., high-income, low-spending vs. low-income, high-spending groups).
+
+<img width="756" alt="Viz_1" src="https://github.com/user-attachments/assets/18532b94-ef87-479b-bdf1-8426062b66b1">
+
 
 ### Conclusion and Insights
 The K-Means clustering model identified five distinct customer segments based on **Age, Annual Income, and Spending Score**. The segmentation reveals that customer behavior varies significantly:
